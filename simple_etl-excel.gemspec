@@ -24,6 +24,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'guard-rspec'
   s.add_development_dependency 'rspec'
 
-  s.add_runtime_dependency "simple_etl", "~> 0.0.2"
+  s.add_runtime_dependency "simple_etl", "~> 0.0.3"
   s.add_runtime_dependency "spreadsheet", "~> 0.7"
 end

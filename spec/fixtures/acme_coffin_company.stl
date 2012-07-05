@@ -1,0 +1,18 @@
+define :excel do
+  use_sheet 0
+  raise_error_on_void_sheet
+
+  skip_rows 5
+
+  string :name
+  float  :rate
+  float  :ot_rate
+  float  :reg_hours
+  float  :ot_hours
+  float  :reg_pay
+  float  :ot_pay
+  float  :total_pay
+  float  :tax_rate
+  float  :taxes
+  float  :net_pay
+end
