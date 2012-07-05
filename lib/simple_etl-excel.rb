@@ -1,4 +1,4 @@
-require "simple_etl-excel/version"
+require "simple_etl/excel/version"
 
 module SimpleEtl
   module Excel
