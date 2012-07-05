@@ -7,15 +7,15 @@ Gem::Specification.new do |s|
   s.version     = SimpleEtl::Excel::VERSION
   s.authors     = ["Nicola Racco"]
   s.email       = ["nicola@nicolaracco.com"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.homepage    = "https://github.com/nicolaracco/simple_etl-excel"
+  s.summary     = %q{Excel Format Plugin for SimpleETL}
+  s.description = %q{Excel Format Plugin for SimpleETL}
 
   s.rubyforge_project = "simple_etl-excel"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
-  s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
+  #s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
   # specify any dependencies here; for example:
