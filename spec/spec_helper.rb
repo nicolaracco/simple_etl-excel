@@ -1,5 +1,5 @@
 # Load the Sinatra app
-require File.dirname(__FILE__) + '/../lib/simple_etl'
+require File.dirname(__FILE__) + '/../lib/simple_etl-excel'
 require 'rspec'
 
 Dir[File.expand_path(File.join(File.dirname(__FILE__),'support','**','*.rb'))].each {|f| require f}
