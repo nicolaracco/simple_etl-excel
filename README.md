@@ -5,6 +5,12 @@ Simple ETL Excel Format Plugin
 
 SimpleETL::Excel is a format plugin that will allow you to parse excel files, using the [Spreadsheet](https://github.com/voraz/spreadsheet) gem.
 
+## Installation
+
+Put the following line inside your Gemfile
+
+gem 'simple_etl-excel'
+
 ## How to use
 
 Template definition code: :excel
